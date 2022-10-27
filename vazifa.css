@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 130vh;
+    background:repeating-linear-gradient(red,blue );
+    display: grid;
+}
+.top{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    color: dodgerblue;
+}
+.right{
+    width: 50%;
+    height: 100%;
+}
+.left img{
+    width: 400px;
+    height: 290px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.lll{
+    margin-left: 140px;
+    margin-top : -100px;
+    font-weight: 200;
+}
+.like{
+    width: 500px;
+    height: 430px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color:white;
+    display: block;
+}
+.like input{
+    width: 80%;
+    height: 60px;
+    border-radius: 15px;
+    margin-left: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+.jik{
+    width:400px;
+    height: 50px;
+    background-color:dodgerblue;
+    border: none;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+}
+.like a{
+    margin-left: 140px;
+    color: dodgerblue;
+    font-size: 19px;
+    margin-top: 20px;
+    display: flex;
+}
+hr{
+    width: 86%;
+    margin: auto;
+    margin-top: 10px;
+}
+.bhu{
+    width:360px;
+    height: 50px;
+    background-color:rgb(13, 255, 13);
+    border: none;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: white;
+}
+.bottom h4{
+  width: 900px; 
+  margin: auto; 
+  color: wheat;
+  line-height: 20px;
+  margin-top: 10px;
+  font-weight: 100;
+}
+input{
+    outline: none;
+}
